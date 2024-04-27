@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    display: grid;
+    grid-template-columns: repeat(30, 20px); 
+    grid-template-rows: repeat(30, 20px); 
+    margin: 20px auto;
+}
+
+.cell {
+    width: 20px; 
+    height: 20px; 
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.cell.alive {
+    background-color: #00aaff; 
+}
+
+#generation-time {
+    margin-top: 10px;
+}
